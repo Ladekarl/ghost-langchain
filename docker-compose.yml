@@ -1,0 +1,10 @@
+services:
+  ghost-langchain:
+    image: ghost-langchain:latest
+    build: .
+    volumes:
+      - ./ghost-langchain/:/app/ghost-langchain
+    ports:
+      - 8080:8080
+    env_file:
+      - .env

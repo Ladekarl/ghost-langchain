@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    "**/.venv": true,
+    "**/__pycache__": true
+  },
+  "search.exclude": {
+    "poetry.lock": true
+  }
+}
